@@ -3,8 +3,8 @@ from bs4 import BeautifulSoup
 from email.mime.multipart import MIMEMultipart
 from email.mime.text import MIMEText
 
-password = "yttlukncjxinzgoe"
-username = "polina.zolotova.qr@gmail.com"
+password = "mypassword"
+username = "mylogin"
 
 data = {}
 
@@ -34,7 +34,6 @@ def scrape():
 
         print(data["price_now"])
         
-
     except Exception as err: # request returns error
         print(err) 
         
